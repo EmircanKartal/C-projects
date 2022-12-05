@@ -14,12 +14,12 @@ Question: Instructs C to calculate the value of the following series for the giv
 
 int fact(int n)
 {
-    int carpim = 1, i;
+    int multiply = 1, i;
     for (i = n; i > 0; i--)
     {
-        carpim = carpim * i;
+        multiply = multiply * i;
     }
-    return carpim;
+    return multiply;
 }
 
 float sumfunc(int x, int n)
@@ -28,7 +28,7 @@ float sumfunc(int x, int n)
     int k;
     for (k = 1; k <= n; k++)
     {
-        sum += (pow(x, k) / fact(2 * k - 1)); // artı solda olacak
+        sum += (pow(x, k) / fact(2 * k - 1)); 
     }
 
     return sum;

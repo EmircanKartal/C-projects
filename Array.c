@@ -4,7 +4,7 @@
 
 int create_array(int n)
 {
-    int i,j,num,total=0,A[n];
+    int i,total=0,A[n];
     for(i=0; i<n; i++)
     {
         printf("%d. Enter the element: ",i+1);
